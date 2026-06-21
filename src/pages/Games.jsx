@@ -40,9 +40,9 @@ const BubblePopGame = ({ onExit }) => {
 
     const spawner = setInterval(() => {
       const id = Date.now() + Math.random();
-      const x = Math.random() * 80 + 10; // 10% to 90%
-      const size = Math.random() * 40 + 40; // 40px to 80px
-      const speed = Math.random() * 2 + 3; // 3s to 5s
+      const x = Math.random() * 80 + 10; 
+      const size = Math.random() * 40 + 40; 
+      const speed = Math.random() * 2 + 3; 
       const color = ["bg-cyan-500", "bg-purple-500", "bg-pink-500"][
         Math.floor(Math.random() * 3)
       ];
