@@ -185,7 +185,7 @@ export default function Assessment() {
               transition={{ bg: "easeOut", duration: 0.3 }}
               className="w-full"
             >
-              {/* Progres */}
+              {/* Progress */}
               <div className="mb-8">
                 <div className="mb-2 flex justify-between text-xs font-medium uppercase tracking-widest text-gray-500">
                   <span>{questions[step].category}</span>
@@ -234,7 +234,7 @@ export default function Assessment() {
                       <span className="text-xl font-medium text-white transition-colors group-hover:text-cyan-300">
                         {option.label}
                       </span>
-                      {/* Hover Feedback Reveal*/}
+                      {/* Hover Feedback Reveal */}
                       <span className="absolute right-6 top-6 text-xs font-bold uppercase tracking-wider text-cyan-500 opacity-0 transition-opacity group-hover:opacity-100 mt-2">
                         Select
                       </span>
@@ -245,7 +245,7 @@ export default function Assessment() {
             </motion.div>
           )}
 
-          {/* Calculating State*/}
+          {/* Calculating State */}
           {isCalculating && (
             <motion.div
               key="calculating"
@@ -278,7 +278,7 @@ export default function Assessment() {
             </motion.div>
           )}
 
-          {/* Result */}
+          {/* Results */}
           {result && (
             <motion.div
               key="result"
