@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <PageTransition>
       <div className="relative h-screen flex flex-col items-center justify-center overflow-hidden bg-black selection:bg-purple-500/30">
-        {/* Background Animated  Shapes */}
+        {/* Background Animated Shapes */}
         <div className="absolute inset-0 overflow-hidden">
           <motion.div
             animate={{
