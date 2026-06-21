@@ -88,7 +88,7 @@ export default function Journey() {
                 My Journey
               </motion.h1>
               <p className="text-gray-400 text-lg">
-                Your path to a better self.
+                Your path to a better self .
               </p>
             </div>
 
