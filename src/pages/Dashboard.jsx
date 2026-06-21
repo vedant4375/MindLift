@@ -113,7 +113,7 @@ const CoachWidget = () => {
     }
   
     if (text.includes("sad")) {
-      return "I'm sorry you're feeling sad . Try talking with someone you trust and doing an activity you enjoy .";
+      return "I'm sorry you're feeling sad. Try talking with someone you trust and doing an activity you enjoy.";
     }
   
     if (text.includes("anxiety")) {
