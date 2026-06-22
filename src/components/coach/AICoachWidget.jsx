@@ -74,7 +74,7 @@ export const AICoachWidget = () => {
         setIsTyping(false);
       },
       1500 + Math.random() * 1000,
-    ); // Random delay between 1.5s and 2.5s
+    ); 
   };
 
   return (
