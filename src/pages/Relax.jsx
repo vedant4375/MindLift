@@ -51,7 +51,7 @@ export default function Relax() {
   const [soundEnabled, setSoundEnabled] = useState(false);
   const [activeSound, setActiveSound] = useState(soundscapes[0]);
 
-  // Breathing Logic
+  
   useEffect(() => {
     let interval;
     if (isActive) {
