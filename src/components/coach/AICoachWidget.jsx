@@ -63,7 +63,6 @@ export const AICoachWidget = () => {
     setInput("");
     setIsTyping(true);
 
-    // Simulate AI thinking delay
     setTimeout(
       () => {
         const response =
